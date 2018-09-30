@@ -1,5 +1,9 @@
 """
-This script copies the UTRANS road database into a new layer, adds a floating point 'ANGLE' field, and places the average azimuthal direction of the polyline in that field.  This is calculated by using the start and end points of the polyline and ensuring it is a positive number from 0-360 (0 = North, 90 = East, 180 = South, 270 = West).
+This script copies the UTRANS road database into a new layer, adds a floating
+point 'ANGLE' field, and places the average azimuthal direction of the polyline
+in that field.  This is calculated by using the start and end points of the
+polyline and ensuring it is a positive number from 0-360 (0 = North, 90 = East,
+180 = South, 270 = West).
 
 The new angle field can then be used with SQL statements to identify/select features where the 'ANGLE' of the road and it's PREDIR or QUADRANTs conflict.  The geometry of these roads would likely need to be flipped or their PREDIR corrected.
 
