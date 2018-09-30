@@ -1,5 +1,8 @@
 """
-This script corrects alias name errors in the UTRANS road database, like alpha aliases that should be in the numeric aliases field.  It loops through each feature, reads the alias fields ('A1_NAME' and 'A2_NAME), and moves them into the numeric alias field ('AN_NAME') if it contains only integers and directions (N, S, E, W, North, South, East, West, etc.).
+This script corrects alias name errors in the UTRANS road database, like alpha aliases that
+should be in the numeric aliases field.  It loops through each feature, reads the alias fields
+('A1_NAME' and 'A2_NAME), and moves them into the numeric alias field ('AN_NAME') if it
+contains only integers and directions (N, S, E, W, North, South, East, West, etc.).
 
 Written by Erik Neemann
 """
