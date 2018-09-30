@@ -1,5 +1,7 @@
 """
-This script was used to populate a feature class of Uber ride starting points.  It loops through HTML files in the specified directory, each file representing one Uber trip.
+This script was used to populate a feature class of Uber ride starting points.
+It loops through HTML files in the specified directory, each file representing
+one Uber trip.
 
 The code does the following:
 1) Creates point feature class in default.gdb to place Uber points
