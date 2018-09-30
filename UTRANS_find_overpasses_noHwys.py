@@ -1,7 +1,13 @@
 """
-This script reads in the UTRANS roads data (a copy from a local geodatabase), identifies potential overpasses or intersections with unbroken road segments, and writes them out to a CSV file.  UDOT highways are skipped, along with all roads with a valid entry in the 'VERT_LEVEL' field.
+This script reads in the UTRANS roads data (a copy from a local geodatabase),
+identifies potential overpasses or intersections with unbroken road segments,
+and writes them out to a CSV file.  UDOT highways are skipped, along with all
+roads with a valid entry in the 'VERT_LEVEL' field.
 
-The remaining rows in the CSV are features that should be examined to add a VERT_LEVEL.  By fixing the VERT_LEVEL field, the roads data could later be broken at all intersections without erroneously breaking road segments at overpasses.
+The remaining rows in the CSV are features that should be examined to add a
+VERT_LEVEL.  By fixing the VERT_LEVEL field, the roads data could later be
+broken at all intersections without erroneously breaking road segments at
+overpasses.
 
 Written by Erik Neemann
 """
