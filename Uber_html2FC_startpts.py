@@ -11,7 +11,6 @@ The code does the following:
 5) Populates FC with the starting point for each Uber trip/html file
 
 Written by Erik Neemann
-v1: 13 May 2018
 """
 
 import time
